@@ -165,7 +165,9 @@ ll.insNodeBeg(5)
 ll.insNodeBeg(6)
 ll.insNodeBeg(7)
 
-console.log(ll.isCyclic())
+
+//console.log(ll)
+// console.log(ll.isCyclic())
 // ll.reverse()
 
 // ll.deleteAt(2)
@@ -174,16 +176,16 @@ console.log(ll.isCyclic())
 // ll.lastNodeDel()
 
 
-function arrayToLinkedList(arr){
-  const list = new linkedList()
-    for(let item of arr){
-        push(list,item)
-    }
-}
+// function arrayToLinkedList(arr) {
+//     const list = new linkedList();  
+//     for (let item of arr) {
+//         list.push(item);  
+//     }
+//     return list;  
+// }
 
-const arr = [1,2,3,4]
+// const arr = [1, 2, 3, 4];
+// console.log(arrayToLinkedList(arr));
 
-console.log(arrayToLinkedList(arr))
 
 
-console.log(ll)
