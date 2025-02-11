@@ -21,20 +21,26 @@ let binarySearch = ((arr,target)=>{
 // console.log(binarySearch(arr,63))
 
 
-let nums = [2,3,4,7,11];
+// let nums = [2,3,4,7,11];
 
-function findKthMissing(arr, k){
-    let count = 0;
+// function findKthMissing(arr, k){
+//     let count = 0;
 
-    for(let i=0;i<arr.length;i++){
-        if(arr[i] <= k + count) count++
-    }
-    return k + count;
-}
+//     for(let i=0;i<arr.length;i++){
+//         if(arr[i] <= k + count) count++
+//     }
+//     return k + count;
+// }
 
 // console.log(findKthMissing(nums,11))    
 // ie; it counts the 14th missing number : here(1,5,6,8,9,10,12,13,14,15,16), k=11
 
+
+let nums = [-3, -1, 0, 4, 6, 9, 10];
+
+const maxOfInteger = (()=>{
+    
+})
 
 
 

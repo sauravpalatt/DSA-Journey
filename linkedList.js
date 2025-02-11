@@ -13,6 +13,20 @@ class linkedList {
         this.size = 0
     }
 
+
+    printList(){
+        let arr = [],
+        current = this.head
+
+        while(current){
+            arr.push(current.data)
+            current = current.next
+        }
+
+        return console.log(arr.join(' --> '))
+
+    }
+
     //Insert node at the beginning:
 
     insNodeBeg(data){
@@ -154,17 +168,39 @@ class linkedList {
 
         return false
     }
-    
-    
+
+    isDuplicate(){
+        let current = this.head
+
+        while (current && current.next){
+            if(current.data === current.next.data){
+                current.next = current.next.next
+            }else{
+                current = current.next
+            }
+        }
+    }
 }
 
 let ll = new linkedList()
 
-ll.insNodeBeg(4)
-ll.insNodeBeg(5)
-ll.insNodeBeg(6)
-ll.insNodeBeg(7)
+ll.insNodeBeg(4);
+ll.insNodeBeg(5);
+ll.insNodeBeg(5);
+ll.insNodeBeg(6);
+ll.insNodeBeg(7);
 
+
+// console.log("Original List:");
+
+ll.isDuplicate();
+
+ll.printList();
+
+
+
+// console.log("List after removing duplicates:");
+// ll.printList();
 
 //console.log(ll)
 // console.log(ll.isCyclic())
@@ -176,16 +212,7 @@ ll.insNodeBeg(7)
 // ll.lastNodeDel()
 
 
-// function arrayToLinkedList(arr) {
-//     const list = new linkedList();  
-//     for (let item of arr) {
-//         list.push(item);  
-//     }
-//     return list;  
-// }
 
-// const arr = [1, 2, 3, 4];
-// console.log(arrayToLinkedList(arr));
 
 
 
