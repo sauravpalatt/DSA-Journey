@@ -193,9 +193,40 @@ ll.insNodeBeg(7);
 
 // console.log("Original List:");
 
-ll.isDuplicate();
+// ll.isDuplicate();
 
-ll.printList();
+
+//ARRAY TO LINKEDLIST:
+let array = [1,2,3]
+
+function arrToLL(arr){
+    let ldList = new linkedList()
+    for(let data of arr){
+        ldList.insNodeEnd(data)
+    }
+    ldList.printList()
+}
+
+// arrToLL(array)
+
+//LINKEDLIST TO ARRAY
+
+// function llToArr(list){
+//     const arr = []
+//     let current = list.head
+
+//     while(current){
+//         arr.push(current.data)
+//         current = current.next
+//     }
+//     return arr
+// }
+
+// console.log(llToArr(ll))
+
+
+
+
 
 
 

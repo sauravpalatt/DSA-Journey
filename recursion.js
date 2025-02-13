@@ -116,6 +116,13 @@
 //         return fibonacci(n-1) + fibonacci(n - 2);
 //     }
 // }
-
 // console.log(fibonacci(8))
+
+// const reverseString = ((str)=>{
+//     if (str === "") return "" // this and str.length === 0 is same
+//     else return reverseString(str.slice(1))+str.charAt(0) 
+// })
+// console.log(reverseString("KANNAN"))
+
+
 
