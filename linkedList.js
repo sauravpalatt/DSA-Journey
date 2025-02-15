@@ -191,9 +191,7 @@ ll.insNodeBeg(6);
 ll.insNodeBeg(7);
 
 
-// console.log("Original List:");
-
-// ll.isDuplicate();
+ll.isDuplicate();
 
 
 //ARRAY TO LINKEDLIST:
@@ -207,7 +205,7 @@ function arrToLL(arr){
     ldList.printList()
 }
 
-// arrToLL(array)
+arrToLL(array)
 
 //LINKEDLIST TO ARRAY
 

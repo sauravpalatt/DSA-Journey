@@ -94,19 +94,19 @@
 
 //PALINDROME CHECK WITH RECURSION:
 
-// function isPalindrome(str){
-//     let string = str.length-1
-//     if(str.length === 0){
-//         return true
-//     }else if(str[0] !== str[string]){
-//         return false
-//     }else{
-//         let result = str.slice(1,string)
-//         return isPalindrome(result)
-//     }
-// }
+function isPalindrome(str){
+    let string = str.length-1
+    if(str.length === 0){
+        return true
+    }else if(str[0] !== str[string]){
+        return false
+    }else{
+        let result = str.slice(1,string)
+        return isPalindrome(result)
+    }
+}
 
-// console.log(isPalindrome("SAMSASMAS"))
+console.log(isPalindrome("SAMSASMAS"))
 
 //FIBONACCI NOS WITH RECURSION:
 

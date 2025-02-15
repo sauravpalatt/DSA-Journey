@@ -108,18 +108,18 @@ class linkedList{
 
     //REVERSE:
 
-  reverse(){
-    let current = this.head
-    let prev = null
+    reverse(){
+      let current = this.head,
+      prev = null
 
-    while(current){
-        let nextNode = current.next
+      while(current){
+        let newNode = current.next
         current.next = prev
         prev = current
-        current = nextNode
-    }
-    this.head = prev
-  }
+        current = newNode
+      }
+      this.head = prev 
+    } 
 }
 
 const ll = new linkedList()
@@ -131,9 +131,10 @@ ll.insAtEnd(4)
 ll.insAtEnd(5)
 ll.insAtEnd(6)
 
-ll.reverse()
+// ll.reverse()
 
-ll.printList()
+// ll.printList()
+
 // console.log(ll)
 
 // ll.insAt(2,10)
@@ -149,4 +150,88 @@ ll.printList()
 //     }
 // }
 // console.log(fabinocci(10))
+
+
+//SUB-ARRAY QN:
+
+// function arraySet(arr){
+//     let temp =[]
+//     let result = []
+
+//     function subArraySet(nums,i){
+//         if(i === nums.length) return result.push([...temp])
+            
+//             temp.push(nums[i])
+//             subArraySet(nums,i+1)
+//             temp.pop()
+//             subArraySet(nums,i+1)
+//     }
+
+//     subArraySet(arr,0)
+//     return result
+// }
+
+// console.log(arraySet([1,2,3]))
+
+
+//LINEAR SEARCH:
+
+// const arr = [2,1,4,3,8,6,5,9]
+
+// function linearSearch(arr,target){
+//     let result = []
+    
+//     for(let i=0;i<arr.length;i++){
+//         if(target === arr[i]) result.push(i)
+//     }
+//     return result.length === 0 ? -1 : result ;
+// }
+
+
+
+// console.log(linearSearch(arr,6))
+
+// //BINARY SEARCH:
+
+// let arr = [1,2,3,4,5,6,7,8,9,10,11]
+
+
+// function binarySearch(nums,target){
+//     let start = 0
+//     let end = nums.length-1
+
+//     while(start<=end){
+
+//     let middle = (start+end)/2
+    
+//     if(nums[middle] === target) return console.log(`Middle is in position: ${middle}`)
+//     if(middle < target) start = middle + 1
+//     if(middle > target) end = middle - 1
+
+//     }
+// }
+
+// binarySearch(arr,9)
+
+
+
+//REVISION PART 2:
+
+//Multiply
+
+// const arr = [1,2,3,4,5]
+
+// function multiply(arr){
+//     if(arr.length <= 0) return 1
+//     return arr[arr.length-1] * multiply(arr.splice(0,arr.length-1))
+// }
+// console.log(multiply(arr))
+
+
+
+
+// remove duplicates in a sorted singly linked list:
+
+
+
 
