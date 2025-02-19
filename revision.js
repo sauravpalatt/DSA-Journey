@@ -228,9 +228,23 @@ ll.insAtEnd(6)
 // console.log(multiply(arr))
 
 
-
-
 // remove duplicates in a sorted singly linked list:
+// add element at beginning
+// array to ll & ll to array
+
+const arr1 = [1,2,4]
+const arr2 = [1,3,4]
+
+const combArr = [...arr1,...arr2]
+
+const newArr=combArr.sort((a,b)=>a-b)
+
+function arrToLL(newArr){
+    
+}
+
+
+
 
 
 

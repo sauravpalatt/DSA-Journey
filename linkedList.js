@@ -190,22 +190,48 @@ ll.insNodeBeg(5);
 ll.insNodeBeg(6);
 ll.insNodeBeg(7);
 
-
 ll.isDuplicate();
+
+// const arr = [1,2,3,4,5]
+
+// function arrToLL(arr){
+//     let newll = new linkedList()
+   
+//     for (const element of arr) {
+//         newll.insNodeEnd(element)
+//     } 
+//     newll.printList()
+// }
+
+// arrToLL(arr)
+
+
+// function llToArr(list){
+//     let arr = []
+//     let current = list.head
+
+//     while(current){
+//         arr.push(current.data)
+//         current = current.next
+//     }
+//     return arr
+// }
+
+// console.log(llToArr(ll))
 
 
 //ARRAY TO LINKEDLIST:
-let array = [1,2,3]
+// let array = [1,2,3]
 
-function arrToLL(arr){
-    let ldList = new linkedList()
-    for(let data of arr){
-        ldList.insNodeEnd(data)
-    }
-    ldList.printList()
-}
+// function arrToLL(arr){
+//     let ldList = new linkedList()
+//     for(let data of arr){
+//         ldList.insNodeEnd(data)
+//     }
+//     ldList.printList()
+// }
 
-arrToLL(array)
+// arrToLL(array)
 
 //LINKEDLIST TO ARRAY
 
@@ -221,6 +247,8 @@ arrToLL(array)
 // }
 
 // console.log(llToArr(ll))
+
+
 
 
 
