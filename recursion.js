@@ -94,19 +94,19 @@
 
 //PALINDROME CHECK WITH RECURSION:
 
-function isPalindrome(str){
-    let string = str.length-1
-    if(str.length === 0){
-        return true
-    }else if(str[0] !== str[string]){
-        return false
-    }else{
-        let result = str.slice(1,string)
-        return isPalindrome(result)
-    }
-}
+// function isPalindrome(str){
+//     let string = str.length-1
+//     if(str.length === 0){
+//         return true
+//     }else if(str[0] !== str[string]){
+//         return false
+//     }else{
+//         let result = str.slice(1,string)
+//         return isPalindrome(result)
+//     }
+// }
 
-console.log(isPalindrome("SAMSASMAS"))
+// console.log(isPalindrome("SAMSASMAS"))
 
 //FIBONACCI NOS WITH RECURSION:
 
@@ -123,6 +123,27 @@ console.log(isPalindrome("SAMSASMAS"))
 //     else return reverseString(str.slice(1))+str.charAt(0) 
 // })
 // console.log(reverseString("KANNAN"))
+
+
+// function arraySet(arr){
+//     let temp = []
+//     let result = []
+
+//     function arraySubSet(arr,x){
+//         if(x == arr.length) return result.push([...temp])
+        
+//         arraySubSet(arr,x+1)
+//         temp.push(arr[x])
+//         arraySubSet(arr,x+1)
+//         temp.pop()
+
+//     }
+
+//     arraySubSet(arr,0)
+//     return result
+// }
+
+// console.log(arraySet([1,2,3,4,5]))
 
 
 

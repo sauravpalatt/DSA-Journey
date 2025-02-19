@@ -57,11 +57,11 @@
     // console.log(`max: ${max} & min: ${min}`)
 
     //FOR:
-    for(let i=0;i<arr.length;i++){
-        if(arr[i] > max) max = arr[i]
-        if(arr[i] < min) min = arr[i]
-    }
-    console.log(`max: ${max} & min: ${min}`)
+    // for(let i=0;i<arr.length;i++){
+    //     if(arr[i] > max) max = arr[i]
+    //     if(arr[i] < min) min = arr[i]
+    // }
+    // console.log(`max: ${max} & min: ${min}`)
 
 // Remove duplicates from an array.
 // Reverse an array without using reverse().
