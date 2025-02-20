@@ -364,11 +364,15 @@
 
         
         // Remove all non-alphanumeric characters from a string:
-        let str = "a5d%@bc89.4"
-        let newStr = str.replace(/[^a-zA-Z0-9]/g,"")
-        console.log(newStr)
+        // let str = "a5d%@bc89.4"
+        // let newStr = str.replace(/[^a-zA-Z0-9]/g,"")
+        // console.log(newStr)
         
         // Find the length of the longest substring without repeating characters:
+        // let str = "ababsdffg"
+        
+
+
         // Reverse the words in a sentence while keeping their order:
         
 

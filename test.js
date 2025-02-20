@@ -97,9 +97,9 @@ ll.insertNodeBeg(1)
 
 // ll.reverse()
 
-console.log(ll.midOf().data)
+// console.log(ll.midOf().data)
 
-ll.printList()
+// ll.printList()
 
 // class Node {
 //     constructor(data,next,prev){
@@ -179,7 +179,46 @@ ll.printList()
 // const str = "management"
 // const newArr = Array.from(str)
 
-//Hamming Distance:
+
+//Palindrome:-
+
+// let str = "MANAANAM"
+// let result;
+
+// function isPalindrome(str){
+    //     let length = str.length-1
+    
+    //     if(str.length === 0) return true
+    //     if(str[0]!==str[length]) return false
+    //     else {
+        //         result = str.slice(1,length)
+        //         return isPalindrome(result)
+        //     }
+        // }
+        
+        // console.log(isPalindrome(str))
+        
+//Fabinocci:-
+        
+        // function Fabinocci(num){
+            //     if(num <= 1) return num
+            //     else{
+                //         return Fabinocci(num-1) + Fabinocci(num-2)
+                //     }
+                // }
+                
+                // console.log(Fabinocci(4))
+                
+//Hamming Distance:-
+
+//Custom Array Range:-
+
+//One more is there ?
+
+//Deletion in ll:-
+
+//DLL:- 
+
 
 
 
