@@ -387,7 +387,27 @@ ll.printList()
 
 
 
-//DLL:- 
+//DLL:-
+
+// let arr = [1,4,3,5]
+// let max = 0
+// let secMax = 0
+
+// arr.forEach((item)=>{
+
+//     if(item > max){
+//         secMax = max
+//         max= item
+//     }else if(max>item>secMax)
+
+// })
+
+let x =8
+r=7
+t=6
+if(x>=r>=t){
+    console.log('hello')
+}
 
 
 

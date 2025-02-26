@@ -145,5 +145,58 @@
 
 // console.log(arraySet([1,2,3,4,5]))
 
+//RECURSION QUESTIONS (SIMPLE)
+
+// 1. Factorial: Write a recursive function to find the factorial of a given number n:
+
+// function factorial(n){
+//     if(n == 0) return 1
+//     else return n*factorial(n-1)
+// }
+
+// console.log(factorial(5))
+
+
+// 2. Fibonacci: Print the first n terms of the Fibonacci series using recursion.
+
+// function fibonacci(n){
+//     if(n<=1) return n
+//     else{
+//     let result = fibonacci(n-1)+fibonacci(n-2)
+//     return result
+//     } 
+// }
+
+// console.log(fibonacci(20))
+
+// 3. Sum of Natural Numbers: Find the sum of the first n natural numbers using recursion.
+
+
+//4. Write a recursive function to print numbers from 1 to n:
+        // function isSum(num,tgt){
+        //     if(num === tgt) console.log(tgt)
+        //     else{
+        //     console.log(num)
+        //     num += isSum(num+1,tgt)
+        //     }
+        // }
+
+        // isSum(1,5)
+
+//5. Write a recursive function to print numbers from n to 1:
+
+        // function isSum(num){
+        //     if(num === 1) console.log(num)
+        //     else{
+        //         console.log(num)
+        //         num += isSum(num-1)
+        //     }
+        // }
+
+        // isSum(5)
+
+
+
+                                                        //RECURSION                                             
 
 
