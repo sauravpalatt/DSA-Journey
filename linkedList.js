@@ -299,7 +299,8 @@ class linkedList{
         }
     }
 
-    deleteAt(idx){
+    deleteAt(idx,data){
+        let newNode = new Node(data)
         let current = this.head
         if(idx==0){
             this.head=current.next
@@ -308,6 +309,23 @@ class linkedList{
                 current = current.next
             }
             current.next = current.next.next
+        }
+    }
+
+    insertAt(idx,data){
+        let newNode = new Node(data)
+        if(idx===0){
+            newNode.next = this.head
+            this.head = newNode
+        }else{
+            let current = this.head
+
+            for(let i=0;i<idx-1;i++){
+                current = current.next
+            }
+            let temp = current.next
+            current.next = newNode
+            newNode.next = temp
         }
     }
 
@@ -326,13 +344,21 @@ class linkedList{
 
 const ll = new linkedList()
 
+ll.insNodeBeg(4)
 ll.insNodeBeg(3)
 ll.insNodeBeg(2)
 ll.insNodeBeg(1)
+ll.insNodeBeg(0)
 
-ll.reverse()
+ll.deleteAt(3)
+ll.insertAt(3,5)
+
+// ll.reverse()
 
 ll.printList()
+
+
+
 
 
 

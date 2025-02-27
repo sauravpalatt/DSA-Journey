@@ -293,6 +293,61 @@
 // console.log(maxStr)
 
 
+// let str = "abk14cd1h3"
+// let strArr = str.split("")
+
+
+// strArr.forEach((item,idx)=>{
+//     if(item === "1"){
+//         strArr.splice(idx,1)
+//     }
+// })
+
+// console.log(strArr.join(""))
+
+
+// let arr = [1,2,2,3,4,4,5,1]
+// let resArr = []
+
+// let obj = {}
+
+// for(let i=0;i<arr.length;i++){
+//     let count = 1
+//     for(let j=0;j<arr.length;j++){
+//         if(arr[i]==arr[j] && i!=j){
+//             count++
+//         }
+//     }
+//     obj[arr[i]]=count++
+// }
+
+// console.log(obj)
+
+// let arr = [1,2,3,4,5]
+
+// function set(arr){
+//     let temp = []
+//     let result = []
+
+//     function subSet(arr,i){
+//     if(i == arr.length) return result.push([...temp])
+
+//        temp.push(arr[i])
+//        subSet(arr,i+1)
+//        temp.pop()
+//        subSet(arr,i+1)
+//     }
+//     subSet(arr,0)
+//     return result
+// }
+
+// console.log(set(arr))
+
+
+
+
+
+
 
 
 

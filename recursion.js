@@ -197,6 +197,84 @@
 
 
 
-                                                        //RECURSION                                             
+                                                        //RECURSION:
+                                                        
+//1. recursion function to remove duplicates:-
+
+// function call(arr){
+//         if(arr.length === 0) return []
+
+//         let first = arr[0]
+//         let modifiedArr = call(arr.slice(1))
+
+//         if(arr.indexOf(first) === arr.lastIndexOf(first)){
+//                 console.log(`if: ${modifiedArr}`)
+//                 return [first,...modifiedArr]
+//         }else{
+//                 console.log(`else: ${modifiedArr}`)
+//                 return modifiedArr
+//         }
+// }
+
+// console.log(call([1,2,3,4,4,5]))
+
+// let str = "HELLO"
+// let strArr = str.split("")
+
+
+// function removeL(strArr){
+//     if(strArr.length === 0) return ""
+    
+//     let first = strArr[0]
+//     let restVal = removeL(strArr.slice(1))
+    
+//     if(first !== "L"){
+//         return [first,...restVal].join("")
+//     }else{
+//         return restVal
+//     }
+// }
+
+// console.log(removeL(strArr))
+
+// function fibonacci(n){
+//         if(n<=1){
+//          return n
+//         } 
+//         else{
+//         return n= fibonacci(n-1)+fibonacci(n-2)
+//         } 
+// }
+
+// console.log(fibonacci(10))
+
+// function reverseString(str){
+//         if(str.length === 0) return ""
+//         else{
+//         return reverseString(str.slice(1))+str.charAt(0)
+//         }
+
+// }
+
+// console.log(reverseString("HELLO"))
+
+// function power(num,n){
+//         if(n===1)return num
+//         else{
+//           return num * power(num,n-1)
+//         }
+// }
+
+// console.log(power(4,4))
+
+// function sum(arr){
+//         if(arr.length === 0) return 0
+//         else{
+//          return arr[0]+sum(arr.slice(1))
+//         }
+// }
+
+// console.log(sum([1,2,3,4,5]))
+
 
 
