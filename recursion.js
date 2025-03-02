@@ -277,4 +277,84 @@
 // console.log(sum([1,2,3,4,5]))
 
 
+// function recursiveNos(num,tgt){
+//         if(num < tgt) return num
+//         else{
+//         console.log(num)
+//         return recursiveNos(num-1,tgt)
+//         }
+       
+// }
+
+// recursiveNos(10,1)
+
+// let arr= [1,2,3,3,4,5]
+
+// function removeDuplicate(arr){
+//         if(arr.length === 0) return []
+//         let first = arr[0]
+//         let slicedArr = arr.slice(1)
+
+//         if(arr.indexOf(first)!==arr.lastIndexOf(first)){
+//                return removeDuplicate(slicedArr)
+//         }else{
+//                return [first,...removeDuplicate(slicedArr)]
+//         }
+// }
+
+// console.log(removeDuplicate(arr))
+
+
+// function product(num){
+// if(num === 1) return num
+// else return num * product(num-1)
+// }
+
+// console.log(product(5))
+
+// function hide(str){
+//         if(str.length === 0) return ""
+//    let first = str[0]
+//    let restStr = str.slice(1)
+
+//    if(str[0]== "L"){
+//         return hide(restStr)
+//    }else{
+//         return [first,...hide(restStr)].join("")
+//    }
+// }
+
+// console.log(hide("HELLO"))
+
+// let str = "MALAYALAM"
+
+// function isPalindrome(str){
+// if(str.length === 0) return true
+// let start = str[0]
+// let end = str[-1]
+
+//     if(start!==end){
+//         return false
+//     }else{
+//          return isPalindrome(str.slice(1,-1))       
+//     }
+// }
+
+// console.log(isPalindrome(str))
+
+// let str = "HELLO"
+
+// function strReverse(str){
+//         let char = str.charAt(0)
+//     if(str.length === 0) return ""
+//     else{
+//         return strReverse(str.slice(1))+char
+//     }
+// }
+
+// console.log(strReverse(str))
+
+
+
+
 
