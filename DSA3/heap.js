@@ -64,10 +64,6 @@ class MinHeap{
             }
         }
     }
-
-    
-
-
 }
 
 let minheap = new MinHeap()

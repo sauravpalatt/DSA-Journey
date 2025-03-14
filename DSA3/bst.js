@@ -147,3 +147,139 @@
 // bst.levelOrder()
 // console.log(bst.closestTgt(0))
 // console.log(bst.preOrder(bst.root))
+
+
+// class Node{
+//     constructor(value){
+//         this.value = value
+//         this.left = null
+//         this.right = null
+//     }
+// }
+
+// class BinarySearchTree{
+//     constructor(){
+//         this.root = null
+//     }
+
+//     insert(value){
+//         let newNode = new Node(value)
+//         if(this.root===null) return this.root = newNode
+//         else return this.insertNode(this.root,newNode)
+//     }
+
+//     insertNode(root,newNode){
+//         if(root.value > newNode.value){
+//             if(root.left === null){
+//                 root.left = newNode
+//             }else{
+//                 this.insertNode(root.left,newNode)
+//             }
+//         }else{
+//             if(root.right === null){
+//                 root.right = newNode
+//             }else{
+//                 this.insertNode(root.right,newNode)
+//             }
+//         }
+//     }
+
+//     delete(root,target){
+//         if(!root) return "VALUE NOT FOUND!!!"
+//         else{
+//             if(root.value > target){
+//                 this.delete(root.left,target)
+//             }else if(root.value < target){
+//                 this.delete(root.right,target)
+//             }else{
+
+//                 if(!root.left && !root.right) return null
+//                 else if(!root.left) return root.right
+//                 else if(!root.right) return root.left
+//                 else{
+//                     root.value = this.min(root.right)
+//                     root.right = this.delete(root.right,root.value)
+//                 }
+//             }
+//         }
+//         return root
+//     }
+
+//     preOrderTraversal(root){
+//         if(root){
+//             console.log(root.value)
+//             this.preOrderTraversal(root.left)
+//             this.preOrderTraversal(root.right)
+//         }
+//     }
+
+//     levelOrder(){
+//         let queue = [this.root]
+//         while(queue.length){
+//             let current = queue.shift()
+//             console.log(current.value)
+
+//             if(current.left) queue.push(current.left)
+//             if(current.right) queue.push(current.right)
+
+//         }
+//     }
+
+//     nearestElement(root,target){
+//         let current = root
+//         let nearest = root.value
+//         while(current!==null){
+//             if(Math.abs(target-current.value)<Math.abs(target-nearest)){
+//                 nearest = current.value
+//             }
+//             if(target > current.value){
+//                 current = current.right
+//             }else{
+//                 current = current.left
+//             }
+//         }
+//         return nearest
+//     }
+
+//     isBST(root,max,min){
+//         if(!root) return true
+//         if(root.value>=max || root.value<=min) return false
+
+//         return (this.isBST(root.left,root.value,min) && this.isBST(root.right,max,root.value))
+//     }
+
+//     kthSmallest(root,k){
+//         let result = []
+
+//         function inOrder(root){
+//             if(root){
+//                 inOrder(root.left)
+//                 result.push(root.value)
+//                 inOrder(root.right) 
+//             }
+//         }
+
+//         inOrder(root)
+//         let resArr = result.reverse((a,b)=>a-b)
+
+//        for(let item of resArr){
+//         if(item === resArr[k-1]) return item
+//        }
+//     }
+// }
+
+// let bst = new BinarySearchTree()
+// bst.insert(14)
+// bst.insert(21)
+// bst.insert(11)
+// bst.insert(32)
+// bst.insert(15)
+
+// console.log(bst.kthSmallest(bst.root,1))
+
+// console.log(bst.isBST(bst.root,Infinity,-Infinity))
+// bst.preOrderTraversal(bst.root)
+// bst.levelOrder()
+// console.log("NEAREST NODE:",bst.nearestElement(bst.root,6))
+
+// console.log(bst)
