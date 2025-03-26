@@ -1,0 +1,76 @@
+Learn about Bubble Sort
+Insertion Sort
+Selection Sort
+Quick sort
+Merge sort.
+Complete at least three sample workouts in each of them.
+
+Learn the concept of Stack and Queue.
+Complete at least three sample workouts in each of them & do at least 3 problems from any competitive coding websites (Hacker Rank, Code Chef, Leet code, Algo Expert, etc.)
+PUSH, POP and Display elements in Stack 
+Enqueue, Dequeue and Display elements in Queue
+
+Hash table implementation with collison handling
+-How to handle collision in a linked list,
+-create stack using queue
+-Stack - Linked List
+-Queue - Linked list
+-Circular queue implementation
+-practice problems from blind 75, refer neetcode.io/practice for questions, practice them on leet code
+-Hashtable collision handling implementation
+- different hashing methods
+- hash table to find two numbers in an array that add up to a target sum.(passed some test cases).
+- Remove middle element
+- sort an array of objects based on .amount property
+- stack that rejects duplicate values
+- Convert the 1st character of the string to uppercase
+- Quick sort without additional arrays
+-merge two sorted list
+-valid parathesis
+-two sum
+-reverse the string using stack
+-remove duplicates from the array (On)j
+-find the occurrence if tge charecter using hash table
+-rehashing
+-double hash implementation
+-how stack used in undo redo
+-double ended que
+-bounded queues
+-implement a stack with methods to push, pop and get the current highest number in o(1) complexity.
+-valid parentheses (LC 20 modified), get the count of invalid pairs
+-two sum with hashmap make to O(n) (q:no- 1)
+-palindrome using stack
+-Linear Probing vs Quadratic probing
+-Reverse a queue
+-Convert stack into Queue
+-Circular Queue Implementation
+-Insertion sort
+-Selection Sort
+-Inplace sort
+-Perform merge sort on array of strings
+-Selection sort
+-Queue implementation
+-Implement double hashing
+-write a code to find the first missing number in the array
+-find the occurrence of each character in a string using inbuilt hash table(map)
+-find the first non-repeating character from a string using inbuilt hash table(map)
+-find the subarray with the maximum sum(can use the kadane's algorithm)
+-Implement a hash table and use it to count the frequency of characters in the string "Mississippi"
+-Using a hash table, implement a function to find the first non-repeating character in "swiss"
+-bubble sort
+-merge sort
+-quick sort
+-enqueue, dequeue, display
+-push pop display
+-set, delete, get, display
+-Remove middle element from Linked list
+-Selection Sort
+-Merge 2 sorted array in O(n) time complexity
+- quadratic probing practical
+- sort a stack.
+- Linear vs Quadratic probing
+- check if array is sorted or not with linear time complexity
+Learn the concepts of Hash Table.Complete at least 3 sample workouts.
+Learn about the Applications of all structures you covered this week
+
+

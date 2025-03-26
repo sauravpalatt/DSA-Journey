@@ -47,51 +47,48 @@
 
 // console.log("==========")
 
+class Node{
+    constructor(value){
+        this.value = value
+        this.children = []
+    }
 
+    addChild(node){
+        this.children.push(node)
+    }
+}
 
+class Tree{
+    constructor(value){
+        this.root = new Node(value)
+    }
 
-// class Node{
-//     constructor(value){
-//         this.value = value
-//         this.children = []
-//     }
+    DFSTraversal(root){
+        if(!root) return
+        else{
+            root.children.forEach((child)=>{
+                console.log(child.value)
+                this.DFSTraversal(child)
+            })
+        }
+    }
+}
 
-//     addChild(node){
-//         this.children.push(node)
-//     }
-// }
+let tree = new Tree("ACHACHAN")
 
-// class Tree{
-//     constructor(value){
-//         this.root = new Node(value)
-//     }
+tree.root.addChild(new Node("AMMA"))
+tree.root.addChild(new Node("VILLAMMA"))
+let valarthuMakal= new Node("SAVITHRI ECHI")
+tree.root.addChild(valarthuMakal)
 
-//     DFSTraversal(root){
-//         if(!root) return
-//         else{
-//             root.children.forEach((child)=>{
-//                 console.log(child.value)
-//                 this.DFSTraversal(child)
-//             })
-//         }
-//     }
-// }
+let amma = tree.root.children.find((item)=>{
+    if(item.value==="AMMA") return item
+})
 
-// let tree = new Tree("ACHACHAN")
+if(amma){
+    amma.addChild(new Node("KANNAN"))
+}
 
-// tree.root.addChild(new Node("AMMA"))
-// tree.root.addChild(new Node("VILLAMMA"))
-// let valarthuMakal= new Node("SAVITHRI ECHI")
-// tree.root.addChild(valarthuMakal)
-
-// let amma = tree.root.children.find((item)=>{
-//     if(item.value==="AMMA") return item
-// })
-
-// if(amma){
-//     amma.addChild(new Node("KANNAN"))
-// }
-
-// tree.DFSTraversal(tree.root)
+tree.DFSTraversal(tree.root)
 
 

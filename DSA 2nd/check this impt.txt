@@ -1,0 +1,14 @@
+delAt(idx) {
+    if (idx === 0) {
+        this.head = this.head.next;
+        if (this.head) this.head.prev = null; // Fix prev pointer for new head
+    } else {
+        let current = this.head;
+        for (let i = 0; i < idx - 1; i++) {
+            current = current.next;
+        }
+        if (!current.next) return; // Prevent accessing null.next
+        current.next = current.next.next;
+        if (current.next) current.next.prev = current; // Fix prev pointer
+    }
+}

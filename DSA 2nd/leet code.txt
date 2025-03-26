@@ -1,0 +1,55 @@
+Hash Table:
+Two Sum – #1
+Longest Substring Without Repeating Characters – #3
+Group Anagrams – #49
+Valid Sudoku – #36
+Subarray Sum Equals K – #560
+
+Stack:
+Valid Parentheses – #20
+Min Stack – #155
+Evaluate Reverse Polish Notation – #150
+Largest Rectangle in Histogram – #84
+Implement Stack using Queues – #225
+
+Queue:
+Implement Queue using Stacks – #232
+Number of Recent Calls – #933
+Sliding Window Maximum – #239
+Design Circular Queue – #622
+Perfect Squares – #279
+
+Bubble Sort:
+Sort Colors – #75
+Maximum Product of Two Elements in an Array – #1464
+Sort Array By Parity – #905
+Find All Numbers Disappeared in an Array – #448
+Third Maximum Number – #414
+
+Quick Sort:
+Kth Largest Element in an Array – #215
+Sort an Array – #912
+Wiggle Sort II – #324
+Largest Number – #179
+Find K Closest Elements – #658
+
+Selection Sort:
+Sort an Array – #912
+Maximum Gap – #164
+Pancake Sorting – #969
+Largest Perimeter Triangle – #976
+Find the Minimum Number of Fibonacci Numbers Whose Sum Is K – #1414
+
+Insertion Sort:
+Insertion Sort List – #147
+Sort List – #148
+Maximum Subarray – #53
+Merge Intervals – #56
+Sort Array By Increasing Frequency – #1636
+
+Merge Sort:
+Sort an Array – #912
+Merge k Sorted Lists – #23
+Count of Smaller Numbers After Self – #315
+Reverse Pairs – #493
+Maximum Subarray – #53

@@ -1,0 +1,32 @@
+                            NOTE:====>   COMPLETE 3 PROBLEMS FOR EACH ON LEETCODE, LEARN THE APPLICATIONS OF THESE DATA STRUCTURES
+
+TREE AND BST:
+Learn the concepts of Tree. (3 workouts)
+Learn the concepts of Binary Search Tree. (3 workouts)
+ Example:-
+Create a Binary Search Tree with: 
+insertion,
+contains,
+delete,
+three traversals: (postorder, preorder, in order).
+Find the closest value to a given number in a Tree.
+Validate whether a given tree is BST or not.
+
+HEAP:
+Learn the concepts of Heap. (3 workouts)
+Example:-
+Create a min heap & max heap with:
+build, 
+insert, 
+remove.
+Learn the concept of Heap sort. (3 workouts)
+
+TRIE:
+Learn the concepts of Trie. (3 workouts)
+ 
+GRAPH:
+Learn the concepts of Graph. (3 workouts).
+Learn the concepts of Graph traversals (BFS, DFS).
+
+
+

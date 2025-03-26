@@ -30,4 +30,32 @@ function heapify(arr,n,i){
 
 buildHeap(arr)
 
+let arr2 = [4,3,1,2,5]
 
+function heapSort(arr){
+    let n = arr.length
+    
+    for(let i=Math.floor(n/2)-1;i>=0;i--){
+        heapify(arr,i)
+    }
+    return [...arr]
+}
+
+function heapify(arr,i){
+    let smallest = i
+    let left = 2*i+1
+    let right = left+1
+    
+    if(arr[left] < arr[smallest]){
+        smallest = left
+    }
+    if(arr[right] < arr[smallest]){
+        smallest = right
+    }
+
+    if(smallest !== i){
+        [arr[smallest],arr[i]] = [arr[i],arr[smallest]]
+    }
+}
+
+console.log(heapSort(arr2))
